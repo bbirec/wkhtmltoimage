@@ -5,7 +5,7 @@ Go binding of [wkhtmltoimage](http://wkhtmltopdf.org). Generate image from html 
 If you need PDF generation binding, please visit https://github.com/adrg/go-wkhtmltopdf
 
 ## Sample
-```
+```go
 package main
 
 import (
