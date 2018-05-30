@@ -20,7 +20,9 @@ import (
 func conv(url string, out string) {
 	converter, err := img.NewConverter(map[string]string{
 		"in":  url,
-		"fmt": "png",
+        "fmt": "png",
+        "screenWidth": "400",
+        "screenHeight": "400",
 	})
 	if err != nil {
 		log.Fatal(err)
